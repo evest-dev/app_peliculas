@@ -1,0 +1,15 @@
+Carpeta Config => constants, router, theme
+
+La carpeta Config nos va a ayudar a definir lo siguiente
+=>  Las rutas de las paginas,
+=>  El tema que puede ser dinamico y 
+=>  Las constantes que son unicas y privadas para el desarrollo del proyecto
+
+Definicion de SubCarpetas
+
+Carpeta Constants =>    Incluye constantes importantes como las keys de la API que utilizaremos
+
+Carpeta Router =>       Se definen y se incluyen todas las rutas dinamicas que se utilizaran en el proyecto
+
+Carpeta Theme =>        Incluye un tema que puede ser por defecto de un color o dinamico de varios colores,
+                        incluyendo el tema claro y oscuro.

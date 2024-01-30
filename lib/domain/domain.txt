@@ -1,0 +1,18 @@
+Carpeta Dominios => datasources, repositories, entities
+
+Nos sirve para definir las reglas del juego, 
+la entidad que se usara a lo largo de la aplicacion, en este caso TheMovieDB.
+
+Definicion de SubCarpetas
+
+Carpeta Entities => Nos ayuda a utilizar y reutilizar los objetos en nuestras aplicaciones
+
+Carpeta Datasources => Es la fuente de datos de donde extraeremos la informacion, en este caso de una API,
+                       la carpeta datasource debera cumplir de forma eficiente el cambiar de una API a otra
+                       sin tener muchas complicaciones
+
+Carpeta Repositories => Llaman a los origenes de datos, estas deben ser flexibles y puedna cambiarse en
+                        cualquier momento sin afectar nuestra aplicacion
+
+OJO : No importa los tipos de datos que vengan o de donde sea, la aplicacion de peliculas 
+va a trabajar con el tipo de entidad que se definan en la carpeta de Domain.

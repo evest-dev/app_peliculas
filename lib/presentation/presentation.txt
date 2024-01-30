@@ -1,0 +1,13 @@
+Carpeta presentation => providers, screens
+
+La carpeta Presentation nos va a ayudar a definir lo siguiente
+=>  a crar providers en relacion a las peliculas de theMovieDB y
+=>  las pantallas de nuestra aplicacion
+
+Definicion de SubCarpetas
+
+Carpeta providers =>     Crea las instancias del MovieRepositoryImpl, estos providers 
+                         seran unicamente de lectura en base a la infrastructure de 
+                         los repositories de theMovieDB
+
+Carpeta screens =>       Crea las vistas de toda nuestra aplicacion en FrontEnd

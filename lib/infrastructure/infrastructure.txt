@@ -1,0 +1,24 @@
+Carpeta Infrastructure => datasources, models, mappers, repositories
+
+La carpeta Infrastructure nos va a ayudar a definir lo siguiente
+=>  Implementaciones del domain,
+=>  crear instancias en base a nuestros objetos propios,
+=>  leer los modelos, crear la data en base a lo que va a recibir de la entidad ya
+=>  implementar los repositorios
+
+Definicion de SubCarpetas
+
+Carpeta Datasources =>   Se utiliza solo para trabajar y tener interacciones con theMovieDB, 
+                         en este caso obtendremos por peticiones http las peliculas que se estan 
+                         reproduciendo 'hoy en cines'.
+
+Carpeta Models =>        Recibe la data en base a las peticiones http, crea las instancias y mapea 
+                         los objetos que ocupamos para nuestros modelos propios en base a las peticiones 
+                         de thetheMovieDB.
+
+Carpeta Mappers =>       Lee diferentes modelos y en relacion a esa data crea (en este caso) una pelicula
+                         basado en algun objeto que vamos a recibir ya sea por theMovieDB o otra entidad
+                         como IBMDB. 
+
+Carpeta Repositories =>  Realiza la implementacion del repositories de theMovieDB de la carpeta 
+                         'Domain/repositories'
